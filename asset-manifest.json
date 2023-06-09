@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RGB_Stopwatch_RandomGenerator/static/css/main.31cdf33b.css",
+    "main.js": "/RGB_Stopwatch_RandomGenerator/static/js/main.c1e27840.js",
+    "static/js/787.69af3fe4.chunk.js": "/RGB_Stopwatch_RandomGenerator/static/js/787.69af3fe4.chunk.js",
+    "index.html": "/RGB_Stopwatch_RandomGenerator/index.html",
+    "main.31cdf33b.css.map": "/RGB_Stopwatch_RandomGenerator/static/css/main.31cdf33b.css.map",
+    "main.c1e27840.js.map": "/RGB_Stopwatch_RandomGenerator/static/js/main.c1e27840.js.map",
+    "787.69af3fe4.chunk.js.map": "/RGB_Stopwatch_RandomGenerator/static/js/787.69af3fe4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31cdf33b.css",
+    "static/js/main.c1e27840.js"
+  ]
+}
