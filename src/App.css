@@ -1,38 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#name {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#name:hover {
+  cursor:pointer;
+  color:#0c8348c9;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(138, 241, 181);
+  height: 15vh;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(30px + 2vmin);
+  color: rgb(243, 12, 101);
+}
+
+.App-back-main{
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(243, 12, 101);
+  background-color: #ffffff;
+  
+}
+
+
+.App-footer {
+  background-color: #de91f1;
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 22px;
+  color: #3b023b;
 }
 
-.App-link {
-  color: #61dafb;
+/* seletores padrão */
+
+nav {
+  margin-right: 80px;
+
+  /* border: solid red 1px; */
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  text-decoration: none;
+  font-size: large;
+  padding: 2px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: rgb(228, 228, 228);
+}
+
+a:hover{
+  cursor: pointer;
+  background-color: rgb(7, 120, 165);
+}
+
+.Log{
+  font-size: 15px;
+  margin-top: none;
+  border: black solid 1px;
+  padding: 10px;
+  border-radius: 90px;
+  background-color: rgb(166, 245, 172);
+}
+
+.Log:hover{
+  cursor: pointer;
+  background-color: grey;
+} 
+#FundoGames,#FundoColor,#FundoTimer{
+  margin-right: 15px;
+  background-color: #de91f1;
+  border-radius: 32px;
+  border: 2px solid rgb(255, 255, 255);
+  
+}
+
+#FundoGames input{
+  width: 500px;
+}
+#FundoGames:hover{
+ 
+  background-color: #f08cf0;
+}
+#FundoColor:hover{
+  background-color: #f08cf0;
+}
+#FundoTimer:hover{
+  background-color: #f08cf0;
+}
+
+.nomes{
+    margin-left: 3vh ;
+  color:#eeff00c9;
+  text-align: left;
+}
+#titulo{
+  background-color: white;
+  color: rgb(243, 12, 101);
 }

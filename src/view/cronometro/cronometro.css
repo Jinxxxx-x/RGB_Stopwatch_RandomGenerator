@@ -1,0 +1,21 @@
+.time{
+    font-size: 40px;
+    color:  rgb(243, 12, 101);
+    ;
+
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    margin: 0px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(148, 148, 148);
+}
+#ColorNumber{
+    color :rgb(195, 0, 255)
+}

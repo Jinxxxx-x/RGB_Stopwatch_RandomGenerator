@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+.games{
+    width: 65%;
+    height: 72vh;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.game{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+}
+.textRecomend{
+    color: rgb(243, 12, 101);
+    font-size: 15px;
+}
+.buttongame{
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    padding: 3px;
+    background-color: rgb(166, 245, 172);
+}
+
+.buttongame:hover{
+    background-color: rgba(215, 147, 241, 0.788);
+}
+
+.gametitle{
+    color: rgb(243, 12, 101);
+}
