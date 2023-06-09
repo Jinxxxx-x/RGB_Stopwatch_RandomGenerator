@@ -8,7 +8,7 @@ import Filmes from './view/tema';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <header className="App-header">
           <Link to="/" id="name">JellyBeans.com</Link >
